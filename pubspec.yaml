@@ -1,0 +1,36 @@
+name: e_commerce
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  fluttertoast: ^8.2.5
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+  google_fonts: 6.1.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+
+
+
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
